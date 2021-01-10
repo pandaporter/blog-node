@@ -11,7 +11,7 @@ const { argv } = require('yargs');
 
 exports.APP = {
 	LIMIT: 10,
-	PORT: 8000,
+	PORT: 5030,
 	ROOT_PATH: __dirname,
 	NAME: 'biaochenxuying',
 	URL: 'http://biaochenxuying.cn/main.html',
@@ -28,14 +28,14 @@ exports.CROSS_DOMAIN = {
 };
 
 exports.MONGODB = {
-	uri: `mongodb://127.0.0.1:${argv.dbport || '27017'}/blogNode`,
-	username: argv.db_username || 'DB_username',
-	password: argv.db_password || 'DB_password',
+	uri: `mongodb://127.0.0.1:${argv.dbport || '5031'}/blog`,
+	username: argv.db_username || 'mongo',
+	password: argv.db_password || 'pandaporter',
 };
 exports.AUTH = {
-	data: argv.auth_data || { user: 'root' },
-	jwtTokenSecret: argv.auth_key || 'blog-node',
-	defaultPassword: argv.auth_default_password || 'root',
+	data: argv.auth_data || { user: 'mongo' },
+	jwtTokenSecret: argv.auth_key || 'blog',
+	defaultPassword: argv.auth_default_password || 'pandaporter',
 };
 
 exports.EMAIL = {

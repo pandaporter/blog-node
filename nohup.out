@@ -1,0 +1,103 @@
+
+> node-blog@0.0.0 start /root/code/blog-node
+> node ./bin/www
+
+(node:7577) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7577) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+应用实例，访问地址为 http://:::5030
+[上午2:22:29] 数据库连接成功!
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+(node:7577) Warning: Accessing non-existent property 'SYSTEM_INDEX_COLLECTION' of module exports inside circular dependency
+[0mGET /currentUser [36m304 [0m6.944 ms - -[0m
+[0mPOST /loginAdmin [31m500 [0m10.673 ms - 48[0m
+[0mGET /currentUser [36m304 [0m1.285 ms - -[0m
+[0mGET /loginAdmin [33m404 [0m6.763 ms - 716[0m
+Error:MongoError: command aggregate requires authentication
+Error:MongoError: command aggregate requires authentication
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [0m- [0m- ms - -[0m
+[0mGET /getProjectList?keyword=&pageNum=1&pageSize=10 [0m- [0m- ms - -[0m
+[0mGET / [33m404 [0m2.148 ms - 716[0m
+Error:MongoError: command aggregate requires authentication
+
+> node-blog@0.0.0 start /root/code/blog-node
+> node ./bin/www
+
+(node:29026) Warning: Accessing non-existent property 'count' of module exports inside circular dependency
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:29026) Warning: Accessing non-existent property 'findOne' of module exports inside circular dependency
+(node:29026) Warning: Accessing non-existent property 'remove' of module exports inside circular dependency
+(node:29026) Warning: Accessing non-existent property 'updateOne' of module exports inside circular dependency
+应用实例，访问地址为 http://:::5030
+[上午2:57:36] 数据库连接成功!
+[0mPOST /register [32m200 [0m22.686 ms - 376[0m
+[0mPOST /login [32m200 [0m4.024 ms - 376[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m6.986 ms - -[0m
+[0mGET /getProjectList?keyword=&pageNum=1&pageSize=10 [36m304 [0m6.237 ms - -[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m3.458 ms - -[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [36m304 [0m4.598 ms - -[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m4.162 ms - 59[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [32m200 [0m4.685 ms - 67[0m
+[0mGET /getTimeAxisList?keyword=&pageNum=1&pageSize=10 [32m200 [0m4.440 ms - 67[0m
+[0mPOST /getArticleDetail [32m200 [0m4.432 ms - 52[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m3.598 ms - 59[0m
+[0mGET /getProjectList?keyword=&pageNum=1&pageSize=10 [32m200 [0m3.711 ms - 67[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [32m200 [0m3.408 ms - 67[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m4.096 ms - 59[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m3.452 ms - 59[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [32m200 [0m3.476 ms - 67[0m
+[0mPOST /login [32m200 [0m3.149 ms - 376[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m6.769 ms - 59[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [32m200 [0m3.420 ms - 67[0m
+[0mGET /currentUser [32m200 [0m1.128 ms - 671[0m
+[0mPOST /loginAdmin [33m400 [0m2.634 ms - 60[0m
+[0mPOST /loginAdmin [33m400 [0m2.269 ms - 60[0m
+[0mPOST /register [32m200 [0m6.474 ms - 390[0m
+[0mPOST /loginAdmin [32m200 [0m3.290 ms - 390[0m
+[0mPOST /loginAdmin [33m400 [0m2.415 ms - 60[0m
+[0mPOST /loginAdmin [32m200 [0m3.251 ms - 390[0m
+[0mPOST /loginAdmin [32m200 [0m3.198 ms - 390[0m
+[0mGET /currentUser [32m200 [0m1.018 ms - 685[0m
+[0mGET /currentUser [32m200 [0m1.047 ms - 685[0m
+[0mGET /getUserList?keyword=&type=&pageNum=1&pageSize=10 [32m200 [0m5.007 ms - 444[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m3.218 ms - 59[0m
+[0mGET /getCategoryList?pageNum=1&pageSize=50 [32m200 [0m6.686 ms - 59[0m
+[0mGET /getArticleListAdmin?keyword=&state=&pageNum=1&pageSize=10 [32m200 [0m7.299 ms - 67[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m2.983 ms - 59[0m
+[0mGET /getCategoryList?keyword=&pageNum=1&pageSize=50 [32m200 [0m3.885 ms - 59[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m5.056 ms - 59[0m
+[0mGET /getCategoryList?pageNum=1&pageSize=50 [32m200 [0m5.913 ms - 59[0m
+[0mGET /getArticleListAdmin?keyword=&state=&pageNum=1&pageSize=10 [32m200 [0m6.122 ms - 67[0m
+[0mGET /getLinkList?keyword=&type=&pageNum=1&pageSize=10 [32m200 [0m4.494 ms - 59[0m
+[0mGET /getCategoryList?keyword=&pageNum=1&pageSize=10 [32m200 [0m3.208 ms - 59[0m
+[0mGET /getTimeAxisList?keyword=&state=&pageNum=1&pageSize=10 [32m200 [0m3.494 ms - 67[0m
+[0mGET /getProjectList?keyword=&state=&pageNum=1&pageSize=10 [32m200 [0m3.317 ms - 67[0m
+[0mGET /notices [33m404 [0m6.046 ms - 716[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [32m200 [0m4.753 ms - 59[0m
+[0mGET /getCategoryList?keyword=&pageNum=1&pageSize=50 [32m200 [0m5.327 ms - 59[0m
+[0mPOST /addArticle [32m200 [0m8.654 ms - 3911[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m3.095 ms - -[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [32m200 [0m4.910 ms - 392[0m
+[0mPOST /getArticleDetail [32m200 [0m11.722 ms - 3915[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m4.836 ms - -[0m
+[0mGET /getArticleList?keyword=&likes=true&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [32m200 [0m4.059 ms - 392[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m5.834 ms - -[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [32m200 [0m5.683 ms - 392[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m4.724 ms - -[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [36m304 [0m5.904 ms - -[0m
+[0mPOST /getArticleDetail [32m200 [0m3.097 ms - 52[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m2.986 ms - -[0m
+[0mGET /getTimeAxisList?keyword=&pageNum=1&pageSize=10 [36m304 [0m3.226 ms - -[0m
+[0mGET /getProjectList?keyword=&pageNum=1&pageSize=10 [36m304 [0m3.200 ms - -[0m
+[0mGET /getTagList?keyword=&pageNum=1&pageSize=50 [36m304 [0m3.184 ms - -[0m
+[0mGET /getArticleList?keyword=&likes=&state=1&tag_id=&category_id=&pageNum=1&pageSize=10 [36m304 [0m5.061 ms - -[0m
